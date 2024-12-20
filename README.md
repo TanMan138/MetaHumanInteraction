@@ -26,14 +26,14 @@ To download the project, **use Git** to clone the repository. It's important to 
 
 ### 3. Build the Executable Game/Environment
 
-To create an executable for your desired platform:
+To package the project into an executable for your desired platform:
 
-1. **In Unreal Engine**, go to the **File** menu and choose **Package Project**.
-2. Select the desired operating system (e.g., **Windows, Mac, Linux**) for which you want to build the executable.
-3. Select the **Shipping** build configuration. Shipping is the build configuration that removes debugging information and prepares the project for release.
-4. After that, click on **Package Project > Shipping**. This will prompt you to choose a directory where Unreal Engine will package your game.
-5. **Select a folder** where you want to save the packaged build and click **Select Folder**.
-6. Unreal Engine will begin the packaging process. After it finishes, you will find the **executable** file in the selected folder.
+1. In **Unreal Engine**, go to the **Platforms** menu.
+2. Select the desired operating system to run the environment (e.g., **Windows, Mac, Linux**).
+3. Click on **Shipping** as the build configuration.
+4. Click on **Package Project**.
+5. Unreal Engine will prompt you to select a folder where you want to save the packaged executable.
+6. Once the build is complete, an executable file will be generated in the folder you selected.
 
 ### 4. Running the Executable
 
