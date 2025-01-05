@@ -6,7 +6,6 @@ This project showcases an interactive 3D environment featuring a virtual human t
 ## Instructions
 
 ### 1. Clone the Repository
-
 To download the project, **use Git** to clone the repository. It's important to clone via **HTTP** as assets won’t be downloaded if you download it as a zip.
 
 1. Open your terminal (or Command Prompt on Windows).
@@ -20,12 +19,17 @@ To download the project, **use Git** to clone the repository. It's important to 
    ```
 
 ### 2. Open the Project in Unreal Engine
-
 1. After cloning, open the project folder.
 2. Locate and double-click the `.uproject` file to open the project in Unreal Engine.
 
-### 3. Build the Executable Game/Environment
+### 3. Simulate the Game
+Once the project is loaded in Unreal Engine, you can simulate the environment directly without building an executable:
 
+1. Look for the **Play** button (a green arrow) at the top of the Unreal Engine interface.
+2. Click the **Play** button to simulate the game in the editor.
+3. Use the simulation to test the gaze interaction and other functionalities.
+
+### 4. Build the Executable Game/Environment
 To package the project into an executable for your desired platform:
 
 1. In **Unreal Engine**, go to the **Platforms** menu.
@@ -35,15 +39,13 @@ To package the project into an executable for your desired platform:
 5. Unreal Engine will prompt you to select a folder where you want to save the packaged executable.
 6. Once the build is complete, an executable file will be generated in the folder you selected.
 
-### 4. Running the Executable
-
+### 5. Running the Executable
 Once the project is successfully packaged, you'll find the **executable** in the folder you selected during the packaging process.
 
 1. Navigate to the folder where you built the executable.
 2. Open the executable file to run the game/environment.
 
-### 5. Important Notes
-
+### 6. Important Notes
 - Make sure all assets are properly downloaded via Git LFS when cloning the repository. If assets aren’t downloaded, the project may not load correctly.
 - You can check the status of Git LFS and make sure files are being tracked by running:
   ```bash
@@ -51,6 +53,5 @@ Once the project is successfully packaged, you'll find the **executable** in the
   ```
 
 ## Requirements
-
-- **Unreal Engine** (version X.X.X or higher)
+- **Unreal Engine**
 - **Git** and **Git LFS** (Large File Storage) for downloading assets
